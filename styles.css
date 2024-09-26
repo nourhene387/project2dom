@@ -1,0 +1,38 @@
+body{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.container {
+    align-items: center;
+    margin-top: 20px;
+    font-size:xx-large;
+   
+
+}
+
+#color-box {
+    width:50%;
+    height: 50%;
+    margin-inline: 500px;
+    background-color: rgb(251, 178, 83);
+    align-items: centre;
+    border-radius: .8em;
+    padding: 15% ;
+}
+#change-color-btn{
+    margin-top:5%;
+        font-size: medium;
+    background-color: blue;
+    color: white;
+    border-color: transparent;
+    border-radius: .3em;
+    font-size:x-large;
+    padding: .5rem 1rem;
+    :hover{ background-color: blueviolet;}
+}
